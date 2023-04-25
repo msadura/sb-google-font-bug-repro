@@ -3,7 +3,7 @@ import { PT_Sans_Narrow } from 'next/font/google';
 
 export const font = PT_Sans_Narrow({
   subsets: ['latin'],
-  variable: '--font-family-serif',
+  variable: '--font-family-sans',
   fallback: ['Georgia', 'ui-serif', 'serif'],
   weight: ['400', '700']
 });
